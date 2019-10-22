@@ -1,0 +1,447 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    color: #CFAB6F!important;
+    text-decoration: none!important;
+}
+
+h1
+{
+  text-align: left !important;
+  color: #DAA520 !important;
+  padding-bottom: 10px;
+}
+
+h2
+{
+  text-align: left !important;
+  color: #DAA520 !important;
+  padding-top: 10px;
+}
+
+h4
+{
+  text-align: center !important;
+  color: #000000 !important;
+  padding-bottom: 10px;
+}
+
+h5
+{
+  color: #DAA520 !important;
+  padding-bottom: 0px;
+  text-align: center!important;
+}
+
+p
+{
+  color: #191F2F;
+  font-size: 1ve !important;
+  text-align: left;
+}
+
+.line {
+  color: #fff!important;
+}
+
+/*h1::after
+{
+  content: '';
+  background: #daa520;
+  display: block;
+  height: 2px;
+  width: 170px;
+  margin: 20px auto 5px;
+}*/
+
+/*------------------------------- Nav Bar ------------------------*/
+#nav-bar {
+  /*padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;*/
+}
+.navbar-custom
+{
+    background-color: #191F2F;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text
+{
+
+    color: #CFAB6F!important;
+
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link
+{
+    color: #CFAB6F!important;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link
+{
+    color: #CFAB6F!important;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item:hover .nav-link
+{
+    color: #efefef!important;
+}
+
+/* for dropdown only - change the color of droodown */
+.navbar-custom .dropdown-menu
+{
+    background-color: #191F2F;
+}
+
+.navbar-custom .dropdown-item
+{
+    color: #DAA520!important;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus
+{
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+}
+
+.navbar-brand img {
+  height: 80px;
+}
+
+a.nav-link {
+  /*padding-top: 80px;*/
+
+}
+
+/*------------------------------- Slide ------------------------*/
+
+
+/*------------------------------- About ------------------------*/
+
+/*#about
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+  background: #2e2e2e;
+}
+
+#about .btn
+{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about-content
+{
+  padding-top: 20px;
+}*/
+
+/*div .borders
+{
+  border: 2px solid #daa520;
+  padding: 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  margin-left: 1px;
+}*/
+
+/*------------------------------- Services ------------------------*/
+#services {
+  padding: 100px;
+  padding-top: 0px!important;
+}
+
+/*collapsible*/
+.collapsible {
+  background-color: #191F2F;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+
+}
+
+/*.active*/ .collapsible:hover {
+  background-color: #555;
+}
+
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+/*.active:after {
+  content: "\2212";
+}*/
+
+.content {
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+ul.services {
+  padding-left: 50px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+
+  text-align: left;
+
+}
+
+tr:nth-child(even) {
+}
+
+/*--------associates-------*/
+.associates {
+  width: 130px;
+  height: 100px;
+  padding-right: 20px;
+}
+
+/*------------------------------- Contact ------------------------*/
+#enquiry
+{
+    padding: 40px;
+    /*background-color: #2e2e2e;*/
+}
+
+#enquiry label
+{
+    color: #CFAB6F !important;
+}
+
+#enquiery button
+{
+    background-color: #CFAB6F !important;
+}
+
+/*#contact a
+{
+    color: #333A42 !important;
+}*/
+
+#contact
+{
+  background: #CFAB6F;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #777;
+}
+
+.contact {
+  color: #2e2e2e!important;
+}
+
+/*.contact::after
+{
+  content: '';
+  background: #2e2e2e;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}*/
+
+::placeholder
+{
+  color: #efefef!important;
+}
+
+.follow
+{
+  background: #fff;
+  padding: 10px;
+  margin: 15px;
+}
+
+.contact-info
+{
+  align-items: center;
+  width: 100%;
+}
+
+.contact-info .fa
+{
+  margin: 10px;
+  color: #007bff;
+  font-weight: bold;
+
+}
+
+#contact .fa-instagram
+{
+    color: #CFAB6F;
+}
+
+
+#contact .fa-envelope
+{
+    color: #CFAB6F;
+}
+
+
+#contact .fa-phone
+{
+    color: #CFAB6F;
+}
+
+#contact .fa-mobile
+{
+    color: #CFAB6F;
+}
+
+
+#contact .fa-id-badge
+{
+    color: #CFAB6F;
+}
+
+/*------------------------------- Footer ------------------------*/
+.page-footer{
+  background-color: #191F2F;
+}
+
+.Authority {
+  width: 50px;
+  height: 50px;
+}
+
+
+#footer h1
+{
+  text-align: center;
+  color: #DAA520 !important;
+  padding-bottom: 10px;
+}
+
+#footer h1::after
+{
+  content: '';
+  background: #daa520;
+  display: block;
+  height: 2px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+#footer p
+{
+  color: #DAA520!important;
+  align-items: center;
+}
+
+#footer
+{
+  background: #191F2F;
+  color: #fff;
+  padding: 12px;
+}
+
+.footer
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer .row
+{
+  margin-top: 30px;
+}
+
+.socials
+{
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.socials a
+{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  /*background: #DAA520;*/
+  color: white;
+  margin: 0 10px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+.socials a:hover
+{
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.socials a i
+{
+  transition: 0.4s all;
+}
+
+.fa-twitter
+{
+  color: #191F2F;
+}
+
+.fa-instagram
+{
+    color: #191F2F;
+}
+
+.fa-linkedin
+{
+    color: #191F2F;
+}
+
+.fa-facebook
+{
+    color: #191F2F;
+}
+
+.fa-envelope
+{
+    color: #191F2F;
+}
+
+.fa-phone
+{
+    color: #191F2F;
+}
+
+.footer-msg
+{
+  text-align: center!important;
+  color: #CFAB6F;
+}
