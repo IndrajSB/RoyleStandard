@@ -43,30 +43,19 @@
             $headers = "From: ".$_POST['email'];
 
             if (mail($emailTo, $subject, $content, $headers)) {
-
                 $successMessage = '<div class="alert alert-success" role="alert">Your message was sent, we\'ll get back to you ASAP!</div>';
-
-
             } else {
-
                 $error = '<div class="alert alert-danger" role="alert"><p><strong>Your message couldn\'t be sent - please try again later</div>';
-
-
             }
-
         }
-
-
-
     }
-
 ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>ROYALE STANDARD</title>
+  <title>ROYLE STANDARD</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -83,7 +72,7 @@
   <body>
     <section id="nav-bar">
       <nav class="navbar navbar-expand-sm navbar-custom">
-          <a class="navbar-brand" href="#"><img src="img/RoyaleStandardLogo.png"></a>
+          <a class="navbar-brand" href="#"><img src="img/RoyleStandardLogo.png"></a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCustom">
               <i class="fa fa-bars fa-lg py-1 text-white"></i>
@@ -109,7 +98,7 @@
                       <a class="nav-link" href="associates.html">ASSOCIATES</a>
                   </li>
                   <li class="nav-item active">
-                      <a class="nav-link" href="news.html">NEWS</a>
+                    <a class="nav-link" href="calculator.html">CALCULATOR</a>
                   </li>
                   <li class="nav-item">
                         <a class="nav-link" href="contact.html">CONTACT</a>
@@ -119,38 +108,68 @@
       </nav>
     </section>
 
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mb-5">
+          <h2>Your Enquiry</h2>
+          <hr class="line">
+          <div class="container">
+            <div id="error"></div>
+              <form method="post">
+                <label>*Your email address submitted will only be shared to Royle Standard*</label>
+                <fieldset class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+                </fieldset>
+                <fieldset class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter email subject">
+                </fieldset>
+                <fieldset class="form-group">
+                  <label for="exampleTextarea">What would you like to ask us?</label>
+                  <textarea class="form-control" id="content" name="content" rows="5" placeholder="Enter your enquiry"></textarea>
+                </fieldset>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I am happy to submit my details</label>
+                </div>
+                <br>
+                <button type="submit" id="submit" class="btn btn-dark">Submit</button>
+              </form>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <h2>Contact Us</h2>
+          <hr>
+          <address>
+            <strong>Trinity House</strong>
+            <br>22 Pennine Close
+            <br>Oadby
+            <br>Leicester
+            <br>LE2 4TB
+          </address>
+          <address>
+            <abbr title="Phone">Phone:</abbr>
+            +44 116 3323 475
+            <br>
+            <abbr title="Phone">Mobile:</abbr>
+            +44 7746 679 350
+            <br>
+            <abbr title="Email">Email:</abbr>
+            <a href="mailto:#">info@roylestandard.com </a>
+          </address>
+        </div>
+      </div>
+    </div>
+      <!-- /.row -->
+
     <!--CONTACT US-->
     <section id="enquiry">
-      <div class="container">
-        <h1>Your Enquiry</h1>
-        <div id="error"></div>
 
-
-          <form method="post">
-            <label>*Your email address submitted will only be shared to Royale Standard*</label>
-            <fieldset class="form-group">
-              <label for="email">Email address</label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
-            </fieldset>
-            <fieldset class="form-group">
-              <label for="subject">Subject</label>
-              <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter email subject">
-            </fieldset>
-            <fieldset class="form-group">
-              <label for="exampleTextarea">What would you like to ask us?</label>
-              <textarea class="form-control" id="content" name="content" rows="5" placeholder="Enter your enquiry"></textarea>
-            </fieldset>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">I am happy to submit my details</label>
-            </div>
-            <br>
-            <button type="submit" id="submit" class="btn btn-dark">Submit</button>
-          </form>
-        </div>
      </section>
 
-    <section id="contact">
+    <!--<section id="contact">
       <div class="container">
         <h1 class="contact">Get In Touch With Us</h1>
         <div class="row">
@@ -169,16 +188,16 @@
             </div>
 
             <div class="follow">
-              <i class="fa fa-envelope"></i><a href="mailto: info@royalestandard.com ">info@royalestandard.com </a>
+              <i class="fa fa-envelope"></i><a href="mailto: info@roylestandard.com ">info@roylestandard.com </a>
             </div>
 
             <!--<div class="follow">
               <i class="fa fa-instagram"></i>  <a href="https://www.instagram.com/bullyfirmuk/?hl=en">Social Media Link</a>
-            </div>-->
+            </div>
 
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -224,16 +243,40 @@
 
     </script>
 
-    <!--footer-->
-    <section id="footer">
+    <!-- Footer -->
+    <section id="disclaimer">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+            <h6>Regulated Bodies</h6>
+            <img class="authority" src="img/ICO.jpg" alt="">
+            <img class="authority" src="img/AOBP.jpg" alt="">
+            <img class="authority" src="img/FOS.jpg" alt="">
+            <br>
+          </div>
 
-      <div class="socials">
-        <a href="mailto: bullyfirmuk@gmail.com"><i class="fa fa-envelope"></i></a>
-        <a href="tel: 07742471033"><i class="fa fa-phone"></i></a>
-        <a href="https://www.instagram.com/bullyfirmuk/?hl=en"><i class="fa fa-instagram"></i></a>
-        <a href="https://www.facebook.com/malik.heer.7"><i class="fa fa-facebook"></i></a>
+          <div class="col-md-6 mb-md-0 mb-3">
+            <h6>Disclaimer</h6>
+            <p class="isclaimer">‘Your home may be repossessed if you do not keep up repayments on a mortgage or other loans secured on it. ’Royle Standard is Introducer Appointed Representative of Watermead Financial Ltd authorised and regulated by the Financial Conduct Authority. FCA Reg: 615369 SFA, School Fee Adviser is a trading style of Watermead Financial Ltd.
+            <br>'Some of the services shown are not regulated by the FCA.'
+            <br>Credit Consumer Licence No. 629680/1
+            <br>Data Protection Act 1998 - Registration No. Z1804091</p>
+          </div>
+        </div>
       </div>
-      <p class="footer-msg">Developed by <a href="https://isbdevelopers.com/">www.isbdevelopers.com</a></p>
+    </section>
+
+
+    <section id="footer">
+      <footer>
+        <div class="socials">
+          <a class="socials" href="mailto: "><i class="fa fa-envelope fa-lg"></i></a>
+          <a href="tel: "><i class="fa fa-phone fa-lg"></i></a>
+          <a href=""><i class="fa fa-instagram fa-lg"></i></a>
+          <a href=""><i class="fa fa-twitter fa-lg"></i></a>
+        </div>
+        <p class="footer-msg">Developed by ISB Developers</p>
+      </footer>
     </section>
 
   </body>
