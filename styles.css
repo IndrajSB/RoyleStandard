@@ -1,5 +1,62 @@
-*
-{
+/*--------------------------- Splash Screen  --------------------------------*/
+body.splash {
+  background-color: #191F2F;
+  padding-bottom: 100px;
+}
+
+.SplashImage {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #CFAB6F;
+  border: none;
+  color: #191F2F;
+  text-align: center;
+  font-size: 28px;
+  padding-top: 5px;
+  width: 20%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button p {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 25px;
+}
+
+.button p:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover p {
+  padding-right: 25px;
+}
+
+.button:hover p:after {
+  opacity: 10;
+  right: 0;
+}
+
+.button {
+    position: absolute;
+    left: 40%;
+}
+
+
+/*--------------------------------- Body ----------------------------------*/
+* {
   margin: 0;
   padding: 0;
 }
@@ -9,52 +66,46 @@ a {
     text-decoration: none!important;
 }
 
-h1
-{
-  text-align: left !important;
-  color: #CFAB6F !important;
+h1 {
+  text-align: left;
+  color: #CFAB6F;
   padding-bottom: 10px;
 }
 
-h2
-{
-  text-align: left !important;
-  color: #CFAB6F !important;
+h2 {
+  text-align: left;
+  color: #CFAB6F;
   padding-top: 10px;
 }
 
-h6
-{
-  text-align: left !important;
-  color: #CFAB6F !important;
+h6 {
+  text-align: left;
+  color: #CFAB6F;
 }
 
-h4
-{
-  text-align: center !important;
-  color: #000000 !important;
+h4 {
+  text-align: center;
+  color: #000000;
   padding-bottom: 10px;
 }
 
-h5
-{
-  color: #DAA520 !important;
+h5 {
+  color: #DAA520;
   padding-bottom: 0px;
-  text-align: center!important;
+  text-align: center;
 }
 
-p
-{
+p {
   color: #191F2F;
-  font-size: 1ve !important;
-  text-align: left;
+  font-size: 1ve;
+  text-align: justify;
 }
 
 .line {
-  color: #fff!important;
+  color: #fff;
 }
 
-/*------------------------------- Nav Bar ------------------------*/
+/*-------------------------------- Nav Bar ---------------------------------*/
 .navbar-custom
 {
     background-color: #191F2F;
@@ -63,22 +114,22 @@ p
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text
 {
-    color: #CFAB6F!important;
+    color: #CFAB6F;
 }
 
 .navbar-custom .navbar-nav .nav-link
 {
-    color: #CFAB6F!important;
+    color: #CFAB6F;
 }
 
 .navbar-custom .nav-item.active .nav-link
 {
-    color: #CFAB6F!important;
+    color: #CFAB6F;
 }
 
 .navbar-custom .nav-item:hover .nav-link
 {
-    color: #efefef!important;
+    color: #efefef;
 }
 
 .navbar-custom .dropdown-menu
@@ -100,17 +151,54 @@ p
 }
 
 .dropdown-item {
-  color: #CFAB6F!important;
+  color: #CFAB6F;
 }
 
 .navbar-brand img {
-  height: 80px;
+  height: 120px;
 }
 
-/*------------------------------- Services ------------------------*/
+/*------------------------------ Content----------------------------------*/
+#content {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+#content-associates {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+}
+
+#content-mortgages {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+}
+
+#content-offshore {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+}
+
+#content-contact {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+}
+
+/*-------------------------------- Services -------------------------------*/
 #services {
   padding: 50px;
-  padding-top: 0px!important;
+  padding-top: 0px;
+  padding-bottom: 200px;
 }
 
 .collapsible {
@@ -161,24 +249,25 @@ td, th {
 tr:nth-child(even) {
 }
 
-/*------------------------- Associates --------------------*/
+
+/*------------------------------ Associates ------------------------------*/
 .associates {
-  width: 130px;
-  height: 100px;
-  padding-right: 20px;
+  width: 200px;
+  height: 120px;
+  padding-right: 30px;
 }
 
-/*------------------------------- Contact ------------------------*/
+/*------------------------------- Contact ---------------------------------*/
 #enquiry {
     padding: 40px;
 }
 
 #enquiry label {
-    color: #CFAB6F !important;
+    color: #CFAB6F;
 }
 
 #enquiery button {
-    background-color: #CFAB6F !important;
+    background-color: #CFAB6F;
 }
 
 #contact {
@@ -231,12 +320,15 @@ tr:nth-child(even) {
     color: #CFAB6F;
 }
 
-
 #contact .fa-id-badge {
     color: #CFAB6F;
 }
 
-/*------------------------------- Disclaimer ------------------------*/
+.btn-custom {
+  color: #CFAB6F;
+}
+
+/*--------------------------------- Disclaimer ------------------------------*/
 #disclaimer {
   background: #191F2F;
   color: #fff;
@@ -259,7 +351,7 @@ tr:nth-child(even) {
 }
 
 
-/*----------------------------- Footer ----------------------*/
+/*--------------------------------- Footer ----------------------------------*/
 #footer {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -284,13 +376,8 @@ tr:nth-child(even) {
   font-size: 24px;
 }
 
-
 .fa-twitter {
   color: #191F2F;
-}
-
-.fa-instagram {
-    color: #191F2F;
 }
 
 .fa-linkedin {

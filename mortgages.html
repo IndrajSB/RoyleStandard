@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>ROYLE STANDARD</title>
+    <title>ROYALE STANDARD</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,14 +12,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-
   </head>
 
   <body>
     <section id="nav-bar">
       <nav class="navbar navbar-expand-sm navbar-custom">
-          <a class="navbar-brand" href="#"><img src="img/RoyleStandardLogo.png"></a>
+          <a class="navbar-brand" href="#"><img src="img/RoyaleStandardLogo.png"></a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCustom">
               <i class="fa fa-bars fa-lg py-1 text-white"></i>
@@ -28,7 +26,7 @@
           <div class="navbar-collapse collapse" id="navbarCustom">
               <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                      <a class="nav-link" href="index.html">HOME</a>
+                      <a class="nav-link" href="home.html">HOME</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -39,94 +37,90 @@
                       <a class="dropdown-item" href="mortgages.html">MORTGAGES</a>
                       <a class="dropdown-item" href="insurance.html">INSURANCE</a>
                       <a class="dropdown-item" href="loans.html">2ND CHANGE LOANS</a>
+                      <a class="dropdown-item" href="offshore.html">OFFSHORE</a>
                     </div>
                   </li>
                   <li class="nav-item active">
                       <a class="nav-link" href="associates.html">ASSOCIATES</a>
                   </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="calculator.html">CALCULATOR</a>
-                  </li>
                   <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                        <a class="nav-link" href="contact.php">CONTACT</a>
                   </li>
               </ul>
           </div>
       </nav>
     </section>
 
-    <!--Image Slider-->
-    <section id="Carousel">
-      <div id="Carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="img/house.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/houseinhand.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/key.png" class="d-block w-100" alt="...">
-          </div>
+
+    <!-- Page Content -->
+    <section id="content">
+      <h2>Mortgages</h2>
+      <hr class="line">
+
+      <p>Mortgages are long term loans that are taken out in order to buy either a property or land. These loans are then repaid over a period of up to 35 years, with interest rates. As mortgages are one of the most expensive financial loans taken out, it is important to get professional consultation and advice to help find the correct mortgage for you. </p>
+      <p>Here at Royale Standard, we can assist you by introducing you to a professional (IFA) Independent Financial Advisor for advice for the correct investment product that may meet your needs.</p>
+
+      <p>Royale Standard must point out that various mortgages have advantages and disadvantages associated with them.</p>
+      <p>You also need to be aware that with both a ‘repayment mortgage’ and an ‘interest only mortgage’ it is your responsibility to ensure that you maintain any such repayment vehicle for the term of the mortgage otherwise you may not be able to repay the debt at the end of the term, thus resulting in possible repossession of your home.</p>
+
+
+      <!--<p>
+        <ul class="services">
+          <li>Royale Standard must point out that various mortgages have advantages and disadvantages associated with them.</li>
+          <li>You also need to be aware that with both a ‘repayment mortgage’ and an ‘interest only mortgage’ it is your responsibility to ensure that you maintain any such repayment vehicle for the term of the mortgage otherwise you may not be able to repay the debt at the end of the term, thus resulting in possible repossession of your home.</li>
+        </ul>
+      </p>-->
+
+      <!--<p>Key Terms:<br>
+        <ul class="services">
+          <li><strong>Rest:</strong> lenders may calculate the interest rate Daily, Monthly or Annually according to their product range.</li>
+          <li><strong>Term:</strong> period that a mortgage/re-mortgage has been arranged to be repaid over.</li>
+        </ul>
+      </p>-->
+    </section>
+
+    <section id="content-mortgages">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>Types of Mortgages</h2>
+          <hr>
+          <p>
+            <ul class="services">
+              <li>Repayment</li>
+              <li>Interest Only</li>
+              <li>Fixed Rate</li>
+              <li>Capped Rate</li>
+              <li>Discounted Rate</li>
+              <li>Standard Variable Rate</li>
+              <li>Bank of England Base Rate Tracker</li>
+              <li>Buy to Let</li>
+              <li>Let to Buy</li>
+              <li>Shariah Home Finance Loans</li>
+              <li>Offshore (Expatriate)</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="col-md-4 mb-5">
+          <h2>Calculator</h2>
+          <hr>
+            <div class="mcw-wrap_250" id="maoWrap">
+            <div id="mcwWidget"></div>
+              <script>
+                var maoCalc={};
+                maoCalc.settings={"theme":"theme1","view":"vertical1","responsive":"mcw-wrap_250","font":"Open Sans, Helvetica, Arial, sans-serif","border":false,"boxShadow":"0px 0px 55px 6px rgba(150, 150, 150, 0.2)","backgroundColor":"#fff","fieldColor":"#fff","textColor":"#334356","borderColor":"#dde2e5","currency":"£","currencySide":"left","delimiters":",.","popup":true,"popupView":"doughnutPopup","style":true,"widgetTotalInterest":false,"widgetTotalPrincipal":false,"monthlyPayment":"Monthly Payment","totalPrincipalPaid":"Total Principal","totalInterestPaid":"Total Interest","totalPayments":"Total Payments","years":"years","title":{"enabled":true,"color":"#334356","label":"Mortgage Calculator"},"homePrice":{"label":"Home Price","value":"000,000"},"downPayment":{"enabled":true,"label":"Down Payment","value":"00,000"},"interestRate":{"label":"Interest Rate","value":"0"},"mortgageTerm":{"label":"Mortgage Term","value":"0"},"pmi":{"enabled":false,"label":"PMI","value":"1,881.24"},"taxes":{"enabled":false,"label":"Taxes","value":"4,375"},"insurance":{"enabled":false,"label":"Insuranse","value":"1,225"},"hoa":{"enabled":false,"label":"HOA","value":"0"},"extra":{"enabled":true,"labelAdd":"Add extra payments","labelRemove":"Remove extra payments","labelToMonthy":"To monthly","labelYearly":"Extra yearly"},"startDate":{"enabled":true,"label":"Start date"},"monthsArr":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"button":{"color":"#fff","bg":"#09f","label":"Calculate"},"amortizationSchedule":"Amortization Schedule"};
+                (function(){function loadScript(src){var s,t;s=document.createElement("script");s.src=src;t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);}function decode(str){return!window.btoa?'not_found':window.btoa(unescape(encodeURIComponent(str)));}var uri='https://mortgage-advice-online.org/widget/'+decode(window.location)+'.js';loadScript(uri);})();
+              </script>
+            </div>
         </div>
       </div>
     </section>
 
 
-    <!-- Page Content -->
-    <div class="container">
 
-      <div class="row">
-        <div class="col-md-8 mb-5">
-          <h2>Mortgage</h2>
-          <hr class="line">
-          <p>Mortgages are long term loans that are taken out in order to buy either a property or land. These loans are then repaid over a period of up to 35 years, with interest rates. As mortgages are one of the most expensive financial loans taken out, it is important to get professional consultation and advice to help find the correct mortgage for you. </p>
-          <p>Here at Royle Standard, we can assist you by introducing you to a professional (IFA) Independent Financial Advisor for advice for the correct investment product that may meet your needs.</p>
-          <p>
-            <ul class="services">
-              <li>Royle Standard must point out that various mortgages have advantages and disadvantages associated with them.</li>
-              <li>You also need to be aware that with both a ‘repayment mortgage’ and an ‘interest only mortgage’ it is your responsibility to ensure that you maintain any such repayment vehicle for the term of the mortgage otherwise you may not be able to repay the debt at the end of the term, thus resulting in possible repossession of your home.</li>
-            </ul>
-          <p>
 
-          <p>Key Terms:<br>
-            <ul class="services">
-              <li><strong>Rest:</strong> lenders may calculate the interest rate Daily, Monthly or Annually according to their product range.</li>
-              <li><strong>Term:</strong> period that a mortgage/re-mortgage has been arranged to be repaid over.</li>
-            </ul>
-          </p>
 
-          <!--<a class="btn btn-primary btn-lg" href="#">Our Services &raquo;</a>-->
-        </div>
-        <div class="col-md-4 mb-5">
-          <h2>Contact Us</h2>
-          <hr>
-          <address>
-            <strong>Trinity House</strong>
-            <br>22 Pennine Close
-            <br>Oadby
-            <br>Leicester
-            <br>LE2 4TB
-          </address>
-          <address>
-            <abbr title="Phone">Phone:</abbr>
-            +44 116 3323 475
-            <br>
-            <abbr title="Phone">Mobile:</abbr>
-            +44 7746 679 350
-            <br>
-            <abbr title="Email">Email:</abbr>
-            <a href="mailto:#">info@roylestandard.com </a>
-          </address>
-        </div>
-      </div>
-    </div>
-    <!-- /.container -->
-
-    <section id="services">
-      <h2>Types of Mortgages</h2>
-      <hr>
-      <button class="collapsible">Repayment Mortgage</button>
+      <!--<button class="collapsible">Repayment Mortgage</button>
       <div class="content">
         <p>Interest on the loan and part of the capital is paid to the lender in the form of regular monthly instalments. In the early years, most of the payments are interest. The capital is paid off slowly in the latter years. The size of the loan therefore gradually decreases during the term of the mortgage.</p>
         <p>Advantages:
@@ -248,7 +242,7 @@
 
       <button class="collapsible">Offshore (Expatriate)</button>
       <div class="content">
-        <p>Offshore or Expatriate mortgages are an area where our services extend beyond the UK market. Royle Standard are able to help you if you want to buy a property in the UK, but you are:
+        <p>Offshore or Expatriate mortgages are an area where our services extend beyond the UK market. Royale Standard are able to help you if you want to buy a property in the UK, but you are:
         <br>
           <ul class="services">
             <li>Non-UK resident (UK expatriate or national of another country)</li>
@@ -281,7 +275,7 @@
           });
         }
       </script>
-    </section>
+    </section>-->
 
     <!-- Footer -->
     <section id="disclaimer">
@@ -297,7 +291,7 @@
 
           <div class="col-md-6 mb-md-0 mb-3">
             <h6>Disclaimer</h6>
-            <p class="isclaimer">‘Your home may be repossessed if you do not keep up repayments on a mortgage or other loans secured on it. ’Royle Standard is Introducer Appointed Representative of Watermead Financial Ltd authorised and regulated by the Financial Conduct Authority. FCA Reg: 615369 SFA, School Fee Adviser is a trading style of Watermead Financial Ltd.
+            <p class="isclaimer">‘Your home may be repossessed if you do not keep up repayments on a mortgage or other loans secured on it. ’Royale Standard is Introducer Appointed Representative of Watermead Financial Ltd authorised and regulated by the Financial Conduct Authority. FCA Reg: 615369 SFA, School Fee Adviser is a trading style of Watermead Financial Ltd.
             <br>'Some of the services shown are not regulated by the FCA.'
             <br>Credit Consumer Licence No. 629680/1
             <br>Data Protection Act 1998 - Registration No. Z1804091</p>
@@ -310,9 +304,9 @@
     <section id="footer">
       <footer>
         <div class="socials">
-          <a class="socials" href="mailto: "><i class="fa fa-envelope fa-lg"></i></a>
-          <a href="tel: "><i class="fa fa-phone fa-lg"></i></a>
-          <a href=""><i class="fa fa-instagram fa-lg"></i></a>
+          <a class="socials" href="mailto: info@royalestandard.com"><i class="fa fa-envelope fa-lg"></i></a>
+          <a href="tel: +44 774 667 9350"><i class="fa fa-phone fa-lg"></i></a>
+          <a href=""><i class="fa fa-twitter fa-lg"></i></a>
           <a href=""><i class="fa fa-linkedin fa-lg"></i></a>
         </div>
         <p class="footer-msg">Developed by ISB Developers</p>
