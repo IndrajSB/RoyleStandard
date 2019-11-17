@@ -98,6 +98,9 @@
                   <li class="nav-item active">
                       <a class="nav-link" href="associates.html">ASSOCIATES</a>
                   </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="news.html">NEWS</a>
+                  </li>
                   <li class="nav-item">
                         <a class="nav-link" href="contact.php">CONTACT</a>
                   </li>
@@ -114,22 +117,22 @@
           <hr class="line">
             <div id="error"></div>
               <form method="post">
-                <label>*Your email address submitted will only be shared to Royale Standard*</label>
+                <label class="form-txt">*Your email address submitted will only be shared to Royale Standard*</label>
                 <fieldset class="form-group">
-                  <label for="email">Email address</label>
+                  <label class="form-txt" for="email">Email address</label>
                   <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
                 </fieldset>
                 <fieldset class="form-group">
-                  <label for="subject">Subject</label>
+                  <label class="form-txt" for="subject">Subject</label>
                   <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter email subject">
                 </fieldset>
                 <fieldset class="form-group">
-                  <label for="exampleTextarea">What would you like to ask us?</label>
+                  <label class="form-txt" for="exampleTextarea">What would you like to ask us?</label>
                   <textarea class="form-control" id="content" name="content" rows="5" placeholder="Enter your enquiry"></textarea>
                 </fieldset>
                 <div class="form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">I am happy to submit my details</label>
+                  <label class="form-txt" class="form-check-label" for="exampleCheck1">I am happy to submit my details</label>
                 </div>
                 <br>
                 <button type="submit" id="submit" class="btn btn-dark">Submit</button>
@@ -138,13 +141,13 @@
         <div class="col-md-4 mb-5">
           <h2>Contact Us</h2>
           <hr>
-          <address>
+          <address class="contact-txt">
             <strong>Royale Standard</strong>
             <br>2A Francis Street
             <br>Leicester
             <br>LE2 2BD
           </address>
-          <address>
+          <address class="contact-txt">
             <abbr title="Phone">Phone:</abbr>
             +44 116 431 5735
             <br>
@@ -214,10 +217,10 @@
 
           <div class="col-md-6 mb-md-0 mb-3">
             <h6>Disclaimer</h6>
-            <p class="isclaimer">‘Your home may be repossessed if you do not keep up repayments on a mortgage or other loans secured on it. ’Royale Standard is Introducer Appointed Representative of Watermead Financial Ltd authorised and regulated by the Financial Conduct Authority. FCA Reg: 615369 SFA, School Fee Adviser is a trading style of Watermead Financial Ltd.
-            <br>'Some of the services shown are not regulated by the FCA.'
-            <br>Credit Consumer Licence No. 629680/1
-            <br>Data Protection Act 1998 - Registration No. Z1804091</p>
+            <p class="isclaimer">Your home may be repossessed if you do not keep up repayments on a mortgage or other loans secured on it.
+            <br>Royale Standard are the introducer between the client looking for financial advice and the lending source.
+            <br>Some of the services shown within Royale Standard, are not regulated by the FCA.
+            <br>ICO Data Protection Act 1998 - Registration No. ZA185680</p>
           </div>
         </div>
       </div>

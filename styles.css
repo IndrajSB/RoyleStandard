@@ -62,8 +62,9 @@ body.splash {
 }
 
 a {
-    color: #CFAB6F!important;
+
     text-decoration: none!important;
+
 }
 
 h1 {
@@ -95,11 +96,13 @@ h5 {
   text-align: center;
 }
 
-p {
-  color: #191F2F;
-  font-size: 1ve;
-  text-align: justify;
-}
+
+
+/*p {
+    color: #191F2F;
+    font-size: 22px;
+    text-align: justify;
+  }*/
 
 .line {
   color: #fff;
@@ -155,7 +158,7 @@ p {
 }
 
 .navbar-brand img {
-  height: 120px;
+  height: 180px;
 }
 
 /*------------------------------ Content----------------------------------*/
@@ -209,7 +212,7 @@ p {
   width: 100%;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  /*font-size: 22px;*/
 }
 
 .collapsible:hover {
@@ -252,8 +255,8 @@ tr:nth-child(even) {
 
 /*------------------------------ Associates ------------------------------*/
 .associates {
-  width: 200px;
-  height: 120px;
+  width: 15%;
+  height: 10%;
   padding-right: 30px;
 }
 
@@ -347,7 +350,7 @@ tr:nth-child(even) {
   color: #CFAB6F!important;
   align-items: center;
   text-align: justify;
-  font-size: small;
+  font-size: medium;
 }
 
 
@@ -399,4 +402,46 @@ tr:nth-child(even) {
 .footer-msg {
   text-align: center;
   color: #191F2F;
+}
+
+/*----------------------- Mobile -------------------------*/
+@media only screen and (max-width: 999px) {
+   p {
+    color: #191F2F;
+    font-size: 23px;
+    text-align: justify;
+  }
+
+  a {
+    color: #CFAB6F!important;
+    text-decoration: none!important;
+    font-size: 23px;
+    }
+
+  li {
+     font-size: 23px;
+  }
+
+  h4 {
+  text-align: center;
+  color: #000000;
+  padding-bottom: 10px;
+  font-size: 2vw!important;
+  }
+
+  .collapsible {
+      font-size: 23px;
+  }
+
+  .small-txt {
+    font-size: 1.5vw;
+  }
+
+  .form-txt {
+    font-size: 23px;
+  }
+
+  .contact-txt {
+    font-size: 23px;
+  }
 }
