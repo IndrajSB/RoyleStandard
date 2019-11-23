@@ -108,6 +108,12 @@ h5 {
     text-align: justify;
   }
 
+p.card-text {
+  color: #191F2F;
+  font-size: 1ve;
+  text-align: justify;
+}
+
 .line {
   color: #fff;
 }
@@ -162,7 +168,7 @@ h5 {
 }
 
 .navbar-brand img {
-  height: 180px;
+  height: 160px;
 }
 
 /*------------------------------ Cards ---------------------------------*/
@@ -198,7 +204,36 @@ body {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+}
 
+
+
+
+
+/* Float four columns side by side */
+.column-finance {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row-finance {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row-finance:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the counter cards */
+.card-finance {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
 }
 
 /*------------------------------ Content----------------------------------*/
@@ -250,7 +285,7 @@ body {
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  text-align: left;
+  text-align: justify;
   outline: none;
   /*font-size: 22px;*/
 }
@@ -453,6 +488,14 @@ tr:nth-child(even) {
     background-color: #f1f1f1;
     height: 400px;
   }
+
+  .card-finance {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: left;
+    background-color: #f1f1f1;
+    height: 400px;
+  }
 }
 
 @media only screen and (max-width: 999px) {
@@ -472,12 +515,12 @@ tr:nth-child(even) {
      font-size: 23px;
   }
 
-  h4 {
+/*  h4 {
   text-align: center;
   color: #000000;
   padding-bottom: 10px;
   font-size: 2vw!important;
-  }
+  }*/
 
   h5 {
   text-align: center;
@@ -492,6 +535,7 @@ tr:nth-child(even) {
 
   .small-txt {
     font-size: 1.5vw;
+    text-align: justify;
   }
 
   .form-txt {
@@ -509,6 +553,16 @@ tr:nth-child(even) {
   }
 
   .card {
+    height: auto!important;
+  }
+
+  .column-finance {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .card-finance {
     height: auto!important;
   }
 }
