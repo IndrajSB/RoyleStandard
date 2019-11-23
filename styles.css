@@ -501,18 +501,18 @@ tr:nth-child(even) {
 @media only screen and (max-width: 999px) {
    p {
     color: #191F2F;
-    font-size: 23px;
+    font-size: 26px;
     text-align: justify;
   }
 
   a {
     color: #CFAB6F!important;
     text-decoration: none!important;
-    font-size: 23px;
+    font-size: 26px;
     }
 
   li {
-     font-size: 23px;
+     font-size: 26px;
   }
 
 /*  h4 {
@@ -526,24 +526,24 @@ tr:nth-child(even) {
   text-align: center;
   color: #000000;
   padding-bottom: 10px;
-  font-size: 23px;
+  font-size: 26px;
   }
 
   .collapsible {
-      font-size: 23px;
+      font-size: 26px;
   }
 
   .small-txt {
-    font-size: 1.5vw;
+    font-size: 26px;
     text-align: justify;
   }
 
   .form-txt {
-    font-size: 23px;
+    font-size: 26px;
   }
 
   .contact-txt {
-    font-size: 23px;
+    font-size: 26px;
   }
 
   .column {
@@ -564,5 +564,15 @@ tr:nth-child(even) {
 
   .card-finance {
     height: auto!important;
+  }
+
+  .card-title {
+      font-size: 28px;
+  }
+
+
+
+  h6 {
+      font-size: 26px!important;
   }
 }
