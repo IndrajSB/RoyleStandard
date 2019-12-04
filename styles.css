@@ -501,18 +501,18 @@ tr:nth-child(even) {
 @media only screen and (max-width: 999px) {
    p {
     color: #191F2F;
-    font-size: 26px;
+    font-size: 28px;
     text-align: justify;
   }
 
   a {
     color: #CFAB6F!important;
     text-decoration: none!important;
-    font-size: 26px;
+    font-size: 28px;
     }
 
   li {
-     font-size: 26px;
+     font-size: 28px;
   }
 
 /*  h4 {
@@ -526,24 +526,24 @@ tr:nth-child(even) {
   text-align: center;
   color: #000000;
   padding-bottom: 10px;
-  font-size: 26px;
+  font-size: 28px;
   }
 
   .collapsible {
-      font-size: 26px;
+      font-size: 28px;
   }
 
   .small-txt {
-    font-size: 26px;
+    font-size: 28px;
     text-align: justify;
   }
 
   .form-txt {
-    font-size: 26px;
+    font-size: 28px;
   }
 
   .contact-txt {
-    font-size: 26px;
+    font-size: 28px;
   }
 
   .column {
@@ -573,6 +573,6 @@ tr:nth-child(even) {
 
 
   h6 {
-      font-size: 26px!important;
+      font-size: 28px!important;
   }
 }
