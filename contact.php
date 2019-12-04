@@ -110,7 +110,108 @@
     </section>
 
     <!-- Page Content -->
-    <section id="content-contact">
+    <!--CONTACT US-->
+    <section id="enquiry">
+    <div class="container">
+      <h2>Your Enquiry</h2>
+      <hr class="line">
+      <div id="error"></div>
+
+
+        <form method="post">
+          <fieldset class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter email subject">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="exampleTextarea">What would you like to ask us?</label>
+            <textarea class="form-control" id="content" name="content" rows="5" placeholder="Enter your enquiry"></textarea>
+          </fieldset>
+          <button type="submit" id="submit" class="btn btn-dark">Submit</button>
+
+
+
+        </form>
+      </div>
+     </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="enquiry">Contact Us</h2>
+        <hr class="line">
+        <div class="row">
+          <div class="contact-info">
+
+            <div class="follow">
+              <i class="fa fa-id-badge"></i> <a>2A Francis Street, Leicester, LE2 2BD</a>
+            </div>
+
+            <div class="follow">
+              <i class="fa fa-phone"></i><a href="tel: 01164315735">0116 431 5735</a>
+            </div>
+
+            <div class="follow">
+              <i class="fa fa-mobile"></i><a href="tel: 07746679350">07746 679 350</a>
+            </div>
+
+            <div class="follow">
+              <i class="fa fa-envelope"></i><a href="mailto: info@royalestandard.com"> info@royalestandard.com</a>
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+
+          $("form").submit(function(e) {
+
+              var error = "";
+
+              if ($("#email").val() == "") {
+
+                  error += "The email field is required.<br>"
+
+              }
+
+              if ($("#subject").val() == "") {
+
+                  error += "The subject field is required.<br>"
+
+              }
+
+              if ($("#content").val() == "") {
+
+                  error += "The content field is required.<br>"
+
+              }
+
+              if (error != "") {
+
+                 $("#error").html('<div class="alert alert-danger" role="alert"><p><strong>There were error(s) in your form:</strong></p>' + error + '</div>');
+
+                  return false;
+
+              } else {
+
+                  return true;
+
+              }
+          })
+
+    </script>
+
+
+    <!--<section id="content-contact">
       <div class="row">
         <div class="col-md-8 mb-5">
           <h2>Your Enquiry</h2>
@@ -162,7 +263,7 @@
     </section>
 
     <!-- jQuery first, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
@@ -201,7 +302,7 @@
 
               }
           })
-    </script>
+    </script>-->
 
     <!-- Footer -->
     <section id="disclaimer">

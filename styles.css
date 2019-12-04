@@ -62,9 +62,8 @@ body.splash {
 }
 
 a {
-
+    color: #CFAB6F!important;
     text-decoration: none!important;
-
 }
 
 h1 {
@@ -76,6 +75,12 @@ h1 {
 h2 {
   text-align: left;
   color: #CFAB6F;
+  padding-top: 10px;
+}
+
+.enquiry {
+  text-align: left;
+  color: #191F2F;
   padding-top: 10px;
 }
 
@@ -501,18 +506,18 @@ tr:nth-child(even) {
 @media only screen and (max-width: 999px) {
    p {
     color: #191F2F;
-    font-size: 28px;
+    font-size: 30px;
     text-align: justify;
   }
 
   a {
     color: #CFAB6F!important;
     text-decoration: none!important;
-    font-size: 28px;
+    font-size: 30px;
     }
 
   li {
-     font-size: 28px;
+     font-size: 30px;
   }
 
 /*  h4 {
@@ -526,24 +531,24 @@ tr:nth-child(even) {
   text-align: center;
   color: #000000;
   padding-bottom: 10px;
-  font-size: 28px;
+  font-size: 30px;
   }
 
   .collapsible {
-      font-size: 28px;
+      font-size: 30px;
   }
 
   .small-txt {
-    font-size: 28px;
+    font-size: 30px;
     text-align: justify;
   }
 
   .form-txt {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .contact-txt {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .column {
@@ -567,12 +572,11 @@ tr:nth-child(even) {
   }
 
   .card-title {
-      font-size: 28px;
+      font-size: 30px;
   }
 
 
-
   h6 {
-      font-size: 28px!important;
+      font-size: 30px!important;
   }
 }
