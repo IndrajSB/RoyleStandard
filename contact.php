@@ -98,9 +98,9 @@
                   <li class="nav-item active">
                       <a class="nav-link" href="associates.html">ASSOCIATES</a>
                   </li>
-                  <li class="nav-item active">
+                  <!--<li class="nav-item active">
                       <a class="nav-link" href="news.html">NEWS</a>
-                  </li>
+                  </li>-->
                   <li class="nav-item">
                         <a class="nav-link" href="contact.php">CONTACT</a>
                   </li>
