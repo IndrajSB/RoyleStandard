@@ -109,7 +109,7 @@ h5 {
 
  p {
     color: #191F2F;
-    font-size: 1ve;
+    font-size: 1em;
     text-align: justify;
   }
 
@@ -354,7 +354,7 @@ tr:nth-child(even) {
 }
 
 #contact {
-  background: #CFAB6F;
+  background: #efefef;
   padding-top: 40px;
   padding-bottom: 40px;
   color: #777;
@@ -382,7 +382,7 @@ tr:nth-child(even) {
 .contact-info .fa {
   margin: 10px;
   color: #007bff;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #contact .fa-instagram {
@@ -418,12 +418,12 @@ tr:nth-child(even) {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 50px;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
 }
 
 .authority {
-  width: 30%;
-  height: 50%;
+  width: 32%;
+  height: 75%;
 }
 
 #disclaimer p {
@@ -431,8 +431,12 @@ tr:nth-child(even) {
   align-items: center;
   text-align: justify;
   font-size: medium;
+
 }
 
+.disclaimer-img {
+  padding-top: 5px;
+}
 
 /*--------------------------------- Footer ----------------------------------*/
 #footer {
@@ -513,7 +517,7 @@ tr:nth-child(even) {
   a {
     color: #CFAB6F!important;
     text-decoration: none!important;
-    font-size: 30px;
+    font-size: 25px;
     }
 
   li {
@@ -575,8 +579,21 @@ tr:nth-child(even) {
       font-size: 30px;
   }
 
-
   h6 {
-      font-size: 30px!important;
+      font-size: 1em!important;
+  }
+
+  .follow-txt {
+    font-size: 30px!important;
+    font-weight: normal;
+  }
+
+  label {
+    font-size: 30px!important;
+  }
+
+  #disclaimer p {
+    font-size: 1em;
+
   }
 }

@@ -88,19 +88,19 @@
                       SERVICES
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="commercialfinance.html">COMMERCIAL FINANCE</a>
-                      <a class="dropdown-item" href="mortgages.html">MORTGAGES</a>
-                      <a class="dropdown-item" href="insurance.html">INSURANCE</a>
                       <a class="dropdown-item" href="loans.html">2ND CHANGE LOANS</a>
+                      <a class="dropdown-item" href="commercialfinance.html">COMMERCIAL FINANCE</a>
+                      <a class="dropdown-item" href="insurance.html">INSURANCE</a>
+                      <a class="dropdown-item" href="mortgages.html">MORTGAGES</a>
                       <a class="dropdown-item" href="offshore.html">OFFSHORE</a>
                     </div>
                   </li>
                   <li class="nav-item active">
+                      <a class="nav-link" href="healthcare.html">HEALTH CARE</a>
+                  </li>
+                  <li class="nav-item active">
                       <a class="nav-link" href="associates.html">ASSOCIATES</a>
                   </li>
-                  <!--<li class="nav-item active">
-                      <a class="nav-link" href="news.html">NEWS</a>
-                  </li>-->
                   <li class="nav-item">
                         <a class="nav-link" href="contact.php">CONTACT</a>
                   </li>
@@ -141,25 +141,25 @@
 
     <section id="contact">
       <div class="container">
-        <h2 class="enquiry">Contact Us</h2>
+        <h2 class="">Contact Us</h2>
         <hr class="line">
         <div class="row">
           <div class="contact-info">
 
             <div class="follow">
-              <i class="fa fa-id-badge"></i> <a>2A Francis Street, Leicester, LE2 2BD</a>
+              <i class="fa fa-id-badge"></i> <a class="follow-txt">2A Francis Street, Leicester, LE2 2BD</a>
             </div>
 
             <div class="follow">
-              <i class="fa fa-phone"></i><a href="tel: 01164315735">0116 431 5735</a>
+              <i class="fa fa-phone"></i><a class="follow-txt" href="tel: 01164315735">0116 431 5735</a>
             </div>
 
             <div class="follow">
-              <i class="fa fa-mobile"></i><a href="tel: 07746679350">07746 679 350</a>
+              <i class="fa fa-mobile"></i><a class="follow-txt" href="tel: 07746679350">07746 679 350</a>
             </div>
 
             <div class="follow">
-              <i class="fa fa-envelope"></i><a href="mailto: info@royalestandard.com"> info@royalestandard.com</a>
+              <i class="fa fa-envelope"></i><a class="follow-txt" yhref="mailto: info@royalestandard.com"> info@royalestandard.com</a>
             </div>
 
         </div>
